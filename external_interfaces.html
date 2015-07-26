@@ -88,30 +88,6 @@ weight: 6
 
   AndFHEM can be partially controlled using intents from external applications:
 
-  <h3>Sending commands</h3>
-
-  <p>Send a command programatically to andFHEM.</p>
-
-  <table>
-    <tbody>
-    <tr>
-      <td>Class Name</td>
-      <td>li.klass.fhem.service.intent.SendCommandIntentService</td>
-    </tr>
-    <tr>
-      <td>Action</td>
-      <td>li.klass.fhem.constants.Actions.EXECUTE_COMMAND</td>
-    </tr>
-    <tr>
-      <td>Data</td>
-      <td>
-        Key: COMMAND <br/>
-        Value: The command to set (i.e. set abc on)
-      </td>
-    </tr>
-    </tbody>
-  </table>
-
   <h2>Start andFHEM via URL scheme</h2>
 
   AndFHEM can be started from your local web browser when providing a link in a distinct format. Whenever a URL starts with fhem://, andFHEM will try to interprete the content:

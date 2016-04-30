@@ -1,3 +1,4 @@
 name: andFHEM
 markdown: redcarpet
 pygments: true
+highlighter: rouge
